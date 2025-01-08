@@ -1,2 +1,2 @@
-# Point-cloud-noisy-reduction
-Compress noisy points toward the "middle face"
+# Point-cloud-noise-reduction
+Normally we use the outlier removal method for point cloud noise reduction, 
