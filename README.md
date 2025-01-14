@@ -62,7 +62,8 @@ We run Python script to process the noisy reduction, we get the result pts_after
 
 Our checking plan is: 
 * Select an area from original points, we name the point set of this area as pts_ori_Large.csv,  then do a polynomial fitting and get the face formula.
-* <p align="center">
+
+<p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p9.jpg width="600" >
 <b>
 &nbsp;<br>
