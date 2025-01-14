@@ -33,7 +33,7 @@ Refering to a current-point i (as a point from the point cloud):
 &nbsp;<br>
 
 <p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p4.jpg width="600" >
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p4.jpg width="1280" >
 <b>
 &nbsp;<br>
 
