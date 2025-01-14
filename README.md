@@ -37,7 +37,8 @@ Refering to a current-point i (as a point from the point cloud):
 <b>
 &nbsp;<br>
 
-## 3. Check the result: 
+
+## 3. Prepare point sets and test noise reduction scrips: 
 We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p5.jpg width="600" >
@@ -60,6 +61,7 @@ We run point_cloud_noise_reduction.py with pts_noisy.csv as the input, and the r
 <b>
 &nbsp;<br>
 
+## 4. Check the result: 
 Our checking plan is: 
 * Select an area from original points, we name the point set of this area as pts_ori_Large.csv,  then do a polynomial fitting and get the face formula.
 
@@ -89,7 +91,7 @@ After run the distance check scrips fit_check.py, we get distance from the point
 &nbsp;<br>
 
 
-## 3. The conculations: 
+## 5. The conculations: 
 We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
 
 
