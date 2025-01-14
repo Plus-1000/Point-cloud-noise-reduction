@@ -66,7 +66,7 @@ Our checking plan is:
 * Select an area from original points, we name the point set of this area as pts_ori_Large.csv,  then do a polynomial fitting and get the face formula.
 
 <p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p9.jpg width="800" >
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p9.jpg width="1280" >
 <b>
 &nbsp;<br>
 &nbsp;<br>
