@@ -48,8 +48,7 @@ We designed a face within NX CADCAM interface, create points on the face, we nam
 <b>
 &nbsp;<br>
 
-Then we add noisy to pts_ori.csv, get the point set pts_noisy, check distance from point set to the face from fitting. 
-We use the Z direction distance response the pt-face distance which should be along face normal, for our face is about lies in xy plane. 
+Then we add noisy to pts_ori.csv, get the point set pts_noisy.
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p7.jpg width="600" >
 <b>
