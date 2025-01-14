@@ -8,7 +8,7 @@ Normally, we use outlier removal methods for point cloud noise reduction. Howeve
 &nbsp;<br>
 &nbsp;<br>
 
-Duo to this situlation, this test aims to adjust outlier points (as seen from the section view) by compressing them toward the "middle face," effectively pressing the point cloud into a thin layer from both the positive and negative face vector directions.
+Due to this situation, this test aims to adjust outlier points (as observed in the section view) by compressing them toward the 'middle face,' effectively flattening the point cloud into a thin layer from both the positive and negative face vector directions.
 
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p2.jpg width="600" >
