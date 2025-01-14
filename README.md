@@ -68,7 +68,9 @@ Our checking plan is:
 <b>
 &nbsp;<br>
 &nbsp;<br>
-After run the distance check scrips, 
+  
+After run the distance check scrips fit_check.py
+
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p10.jpg width="600" >
 <b>
