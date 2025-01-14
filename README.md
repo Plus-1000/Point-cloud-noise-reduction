@@ -54,7 +54,7 @@ Then we add noisy to pts_ori.csv, get the point set pts_noisy
 <b>
 &nbsp;<br>
 
-We run Python script to process the noisy reduction, we get the result pts_after_noisy_reduction.csv, we dia a visual check from NX CADCAM interface. 
+We run Python script to process the noisy reduction, we get the result pts_after_noisy_reduction.csv
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p8.jpg width="600" >
 <b>
