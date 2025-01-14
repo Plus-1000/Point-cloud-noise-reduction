@@ -10,7 +10,10 @@ Normally, we use outlier removal methods for point cloud noise reduction. Howeve
 
 Duo to this situlation, this test aims to adjust outlier points (as seen from the section view) by compressing them toward the "middle face," effectively pressing the point cloud into a thin layer from both the positive and negative face vector directions.
 
-![Alt text](image-8.png)
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p2.jpg width="600" >
+<b>
+&nbsp;<br>
 
 
 ## 2. How the calculation works: 
@@ -24,20 +27,38 @@ Refering to a current-point i (as a point from the point cloud):
 * Correction: a vector used to adjust the position of the current-point i, aligned with the point-normal.
 * New-points[i]: the updated position of the current-point after applying the correction.
 
-![Alt text](<explain 1-1.jpg>)
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p3.jpg width="600" >
+<b>
+&nbsp;<br>
 
-![Alt text](image-9.png)
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p4.jpg width="600" >
+<b>
+&nbsp;<br>
 
 ## 2. Check the result: 
 We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
-![Alt text](ori_face.JPG)
-![Alt text](image-11.png)
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p5.jpg width="600" >
+<b>
+&nbsp;<br>
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p6.jpg width="600" >
+<b>
+&nbsp;<br>
 
 Then we add noisy to pts_ori.csv, get the point set pts_noisy
-![Alt text](image-12.png)
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p7.jpg width="600" >
+<b>
+&nbsp;<br>
 
 We run Python script to process the noisy reduction, we get the result pts_after_noisy_reduction.csv, we dia a visual check from NX CADCAM interface. 
-![Alt text](image-13.png)
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p8.jpg width="600" >
+<b>
+&nbsp;<br>
 
 Our checking plan is: 
 * Select an area from original points, we name the point set of this area as pts_ori_Large.csv,  then do a polynomial fitting and get the face formula. 
