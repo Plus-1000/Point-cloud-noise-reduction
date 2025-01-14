@@ -68,10 +68,15 @@ Our checking plan is:
 <b>
 &nbsp;<br>
 &nbsp;<br>
-* We narrow down the point area above, and name the point set as pts_ori_small.csv, when we do a point to face distance check, any point from pts_ori_small.csv to the face formula should be 0, or lesser than 0.001 after consider the fitting error. 
-* Same way, we define the checking point set pts_noisy_small.csv, pts_after_noisy_reduction_small.csv, we hope the averge distance from noisy reduction point set to face should be much smaller than that before noisy reduction.  
+After run the distance check scrips, 
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p10.jpg width="600" >
+<b>
+&nbsp;<br>
+&nbsp;<br>
+
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p9a.jpg width="600" >
 <b>
 &nbsp;<br>
 &nbsp;<br>
