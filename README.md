@@ -65,7 +65,7 @@ Our checking plan is:
 * Select an area from original points, we name the point set of this area as pts_ori_Large.csv,  then do a polynomial fitting and get the face formula.
 
 <p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p9.jpg width="600" >
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p9.jpg width="800" >
 <b>
 &nbsp;<br>
 &nbsp;<br>
@@ -73,7 +73,7 @@ Our checking plan is:
 After run the distance check scrips fit_check.py, we get distance from the point set to the fitted face. For simplicity, we use the Z-direction distance to represent the point-to-face distance, which ideally should be measured along the face normal, as our face approximately lies in the XY plane."
 
 <p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p10.jpg width="600" >
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p10.jpg width="800" >
 <b>
 &nbsp;<br>
 &nbsp;<br>
