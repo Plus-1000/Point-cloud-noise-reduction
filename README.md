@@ -80,6 +80,11 @@ After run the distance check scrips,
 <b>
 &nbsp;<br>
 &nbsp;<br>
+<p align="center">
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p9b.jpg width="600" >
+<b>
+&nbsp;<br>
+&nbsp;<br>
 
 
 
