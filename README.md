@@ -37,7 +37,7 @@ Refering to a current-point i (as a point from the point cloud):
 <b>
 &nbsp;<br>
 
-## 2. Check the result: 
+## 3. Check the result: 
 We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p5.jpg width="600" >
@@ -90,7 +90,8 @@ After run the distance check scrips fit_check.py, we get distance from the point
 &nbsp;<br>
 
 
-
+## 3. The conculations: 
+We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
 
 
 
