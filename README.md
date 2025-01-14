@@ -17,7 +17,7 @@ Duo to this situlation, this test aims to adjust outlier points (as seen from th
 
 
 ## 2. How the calculation works: 
-Few concepts need to be declear:
+Few elements introduced before proceed.
 
 Refering to a current-point i (as a point from the point cloud):  
 * Point-normal: the normal vector at the current-point i, representing the local surface orientation.
