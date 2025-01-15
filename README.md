@@ -47,7 +47,7 @@ The diagram below refers to the specific steps in the computation:
 &nbsp;<br>
 
 
-## 3. Prepare point sets and test noise reduction scrips: 
+## 3. Prepare point sets and test noise reduction codes: 
 * We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
 * Then we add noisy to pts_ori.csv, and get the point set pts_noisy.
 * We run point_cloud_noise_reduction.py with pts_noisy.csv as the input, and the result is saved as pts_after_noisy_reduction.csv.
