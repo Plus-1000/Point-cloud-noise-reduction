@@ -58,7 +58,7 @@ We designed a face within NX CADCAM interface, create points on the face, we nam
 <b>
 &nbsp;<br>
 
-Then we add noisy to pts_ori.csv, get the point set pts_noisy.
+Then we add noisy to pts_ori.csv, and get the point set pts_noisy.
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p7.jpg width="600" >
 <b>
@@ -100,8 +100,10 @@ Our checking plan is:
 &nbsp;<br>
 
 
-## 5. The conculations: 
-We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
+## 5. Some observations: 
+The results are better than expected, but there are a few areas that require attention:
+* For large surfaces with high-density points, the computational task can become significant, leading to longer processing times.
+* Ensure that the correct parameters are applied, such as the search radius and the number of neighboring points." 
 
 
 
