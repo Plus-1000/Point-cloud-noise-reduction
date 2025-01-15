@@ -90,7 +90,7 @@ Our checking plan is:
 The point cloud shows significant compression toward the mid-face area, but there are a few areas that require attention:
 * For large surfaces with high-density points, the computational task can become significant, leading to longer processing times.
 * Ensure that the correct parameters are applied, such as the search radius and the number of neighboring points.
-* If the noise in the point cloud does not follow a normal distribution, the algorithm needs to be corrected or standard surface calibration should be performed
+* If the positions of noisy points in the point cloud do not follow a normal distribution, the algorithm needs further development or a standard surface calibration should be performed.
 
 
 
