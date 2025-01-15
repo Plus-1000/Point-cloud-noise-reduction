@@ -32,7 +32,7 @@ Refering to a current-point i (as a point from the point cloud):
 <b>
 &nbsp;<br>
   
-The calculation details include: 
+The diagram below refers to the specific steps in the computation: 
 * Finds neighboring points within a specified radius.
 * Skips the point if it has fewer than 2 neighbors.
 * Computes the average position of the neighboring points.
