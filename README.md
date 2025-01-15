@@ -31,6 +31,7 @@ Refering to a current-point i (as a point from the point cloud):
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p3.jpg width="600" >
 <b>
 &nbsp;<br>
+  
 The calculation details include: 
 * Finds neighboring points within a specified radius.
 * Skips the point if it has fewer than 2 neighbors.
