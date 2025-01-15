@@ -91,9 +91,11 @@ The point cloud shows significant compression toward the mid-face area, but ther
 * For large surfaces with high-density points, the computational task can become significant, leading to longer processing times.
 * Ensure that the correct parameters are applied, such as the search radius and the number of neighboring points.
 * If the positions of noisy points in the point cloud do not follow a normal distribution, the algorithm needs further development or a standard surface calibration should be performed.
+
+
 &nbsp;<br>
 &nbsp;<br>
-Wang Jian 2025 Jan 15, wjian88@gmail.com
+Wang Jian, 2025 Jan 15, wjian88@gmail.com
 
 
 
