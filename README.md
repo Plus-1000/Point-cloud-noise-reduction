@@ -78,7 +78,17 @@ Our checking plan is:
 <b>
 &nbsp;<br>
 &nbsp;<br>
+Finds neighboring points within a specified radius.
 
+Skips the point if it has fewer than 2 neighbors.
+
+Computes the average position of the neighboring points.
+
+Calculates the direction from the current point to the average position.
+
+Projects this direction onto the point's normal to compute a correction vector.
+
+Adjusts the point's position using the correction vector to smooth the surface.
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p9a.jpg width="600" >
 <b>
