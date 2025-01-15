@@ -95,7 +95,7 @@ The point cloud shows significant compression toward the mid-face area, but ther
 
 &nbsp;<br>
 &nbsp;<br>
- * Wang Jian, 2025 Jan 15, wjian88@gmail.com *
+*Wang Jian, 2025 Jan 15, wjian88@gmail.com*
 
 
 
