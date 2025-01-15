@@ -17,19 +17,20 @@ Due to this situation, this test aims to adjust outlier points (as observed in t
 
 
 ## 2. How the calculation works: 
-Few elements introduced before proceed.
+A few elements are introduced before proceeding.
 
-Refering to a current-point i (as a point from the point cloud):  
+Referring to a current-point i (as a point from the point cloud):  
 * Point-normal: the normal vector at the current-point i, representing the local surface orientation.
 * Neighbour-points: the points within the radius of the point i
 * Average-position: the centroid of the neighboring-points.
 * Direction: the vector from the neighbour-points centroid to the current-point.
 * Correction: a vector used to adjust the position of the current-point i, aligned with the point-normal.
-* New-points[i]: the updated position of the current-point after applying the correction.
+* New-points[i]: the current point's updated position after applying the correction.
 
 <p align="center">
 <img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p3.jpg width="600" >
 <b>
+&nbsp;<br>
 &nbsp;<br>
   
 The diagram below refers to the specific steps in the computation: 
