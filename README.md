@@ -52,7 +52,7 @@ The diagram below refers to the specific steps in the computation:
 * Then we add noisy to pts_ori.csv, and get the point set pts_noisy.
 * We run point_cloud_noise_reduction.py with pts_noisy.csv as the input, and the result is saved as pts_after_noisy_reduction.csv.
 <p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p5a.jpg width="1024" >
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p5a.jpg width="960" >
 <b>
 &nbsp;<br>
 
