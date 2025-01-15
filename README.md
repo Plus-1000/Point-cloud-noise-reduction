@@ -48,25 +48,11 @@ The diagram below refers to the specific steps in the computation:
 
 
 ## 3. Prepare point sets and test noise reduction scrips: 
-We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
+* We designed a face within NX CADCAM interface, create points on the face, we name these points as pts_ori.csv
+* Then we add noisy to pts_ori.csv, and get the point set pts_noisy.
+* We run point_cloud_noise_reduction.py with pts_noisy.csv as the input, and the result is saved as pts_after_noisy_reduction.csv.
 <p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p5.jpg width="600" >
-<b>
-&nbsp;<br>
-<p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p6.jpg width="600" >
-<b>
-&nbsp;<br>
-
-Then we add noisy to pts_ori.csv, and get the point set pts_noisy.
-<p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p7.jpg width="600" >
-<b>
-&nbsp;<br>
-
-We run point_cloud_noise_reduction.py with pts_noisy.csv as the input, and the result is saved as pts_after_noisy_reduction.csv.
-<p align="center">
-<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p8.jpg width="600" >
+<img src=https://github.com/Plus-1000/Point-cloud-noise-reduction/blob/main/pic/p5a.jpg width="600" >
 <b>
 &nbsp;<br>
 
